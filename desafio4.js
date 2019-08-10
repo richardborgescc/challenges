@@ -21,13 +21,7 @@ console.log(exports.invertWord("teste"));
     - Retornar a palava invertida. Ex: nosrednA
 */
 exports.isPalindrome = (str) => {
-   let strR = '';
-
-   for (let x = str.split('').length - 1; x >= 0; x--) {
-      strR += str[x];
-   }
-
-   return str == strR;
+   return str == exports.invertWord(str);
 };
 console.log('*** 2 ***');
 console.log(exports.isPalindrome("ana"));
