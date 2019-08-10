@@ -1,0 +1,17 @@
+{
+  "name": "desafios",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "node ./.cli/index.js --path=.."
+  },
+  "author": "Gabriel Andrade Michalski",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "intercept-stdout": "0.1.2",
+    "jest": "24.8.0",
+    "minimist": "1.2.0"
+  }
+}
